@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import precision_score
-import quandl
 
 sp500 = yf.Ticker("^GSPC")
 
